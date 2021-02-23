@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Anıl - Status Page'
   url: 'https://status.anil.tools' # used for Slack messages
   logo: logo.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
