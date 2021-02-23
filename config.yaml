@@ -1,7 +1,7 @@
 settings:
   title: 'Status Page'
   url: 'https://status.anil.tools' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
+  logo: logo.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
@@ -15,9 +15,9 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: www-anil-tools
-    name: www.anil.tools
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.anil.tools'
+  - id: anil-tools
+    name: anil.tools
+    description: 'Anıl Mısırlıoğlu - Personal Web Page'
+    url: 'https://anil.tools'
     method: GET
     expectStatus: 200
